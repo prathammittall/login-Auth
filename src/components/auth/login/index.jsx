@@ -27,7 +27,7 @@ const Login = () => {
             doSignInWithGoogle()
                 .then(() => {
                     // Redirect to external URL after successful Google sign-in
-                    window.location.href = 'https://somnium-feb-25-7kyyrw2x7np7u5xwrew2ml.streamlit.app/'
+                    window.location.href = 'https://payment-feb-25-o9oh.vercel.app/'
                 })
                 .catch(err => {
                     setIsSigningIn(false)
