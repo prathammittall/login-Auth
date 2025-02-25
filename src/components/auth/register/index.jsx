@@ -29,7 +29,7 @@ const Register = () => {
 
             <main className="w-full h-screen flex self-center justify-between items-center bg-black px-24">
                 <div className='w-[50vw]'>
-                    <img src="./Logo-full.png" alt="" />
+                    <img src="./Logo-full.png" alt="" className='w-[750px]' />
                 </div>
                 
                 <div className="w-96 text-gray-600 space-y-5 p-4 shadow-xl border rounded-xl bg-white">
